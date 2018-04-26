@@ -1,0 +1,25 @@
+<?php
+/*!
+ * @file Config.php
+ * @author Sensu Development Team
+ * @date 2018/03/30
+ * @brief 設定
+ */
+
+class Config
+{
+    /*!
+     * @brief SensuプラットフォームAPIキー
+     */
+    const SENSU_PLATFORM_API_KEY = 'sensu_platform_api_key';
+
+    /*!
+     * @brief LINE API チャンネルアクセストークン
+     */
+    const LINE_API_CHANNEL_ACCESS_TOKEN = 'line_api_channel_access_token';
+
+    /*!
+     * @brief LINE API チャンネルシークレット
+     */
+    const LINE_API_CHANNEL_SECRET = 'line_api_channel_secret';
+}
