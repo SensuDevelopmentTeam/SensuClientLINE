@@ -71,7 +71,7 @@ class LINEWebhook
             $command = self::getCommandFromText($command);
             
             // 投げ銭コマンド(無効)
-            if (isset($command[0]) && $command[0] === 'tip')
+            if (isset($command[0]) && strcasecmp($command[0], 'tip') == 0)
             {
                 if (isset($command[3]))
                 {
